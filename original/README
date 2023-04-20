@@ -1,0 +1,3 @@
+Index.html based on data found on https://datamap-scotland.co.uk/
+
+extract.rb will extract this data into machine readable JSON. `add_from_csv.rb` will also add extra information not present in the html.
