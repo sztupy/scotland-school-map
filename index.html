@@ -87,7 +87,7 @@
         function catchmentPopup(feature, layer) {
             if (feature.properties) {
                 let text = '';
-                for (let key in feature.properties) {
+                for (let key of Object.keys(feature.properties).sort()) {
                     if (feature.properties[key] != null) {
                         text += `<b>${key}</b>: ${feature.properties[key]}<br>`;
                     }
@@ -99,7 +99,7 @@
                 if (feature.properties["5 And Above20202021"] != null) {
                     toolTipText += `Success rate: ${feature.properties["5 And Above20202021"]}%`;
                 }
-                layer.bindTooltip(f => toolTipText);
+                layer.bindTooltip(toolTipText, { sticky: true });
             }
         }
 
@@ -150,8 +150,8 @@
                 radius: 6,
                 color: "black",
                 fillColor: secondarySchool[2].type == 'Non-denominational' ? `black` : `white`,
-                fillOpacity: 1,
-                weight: 0.5
+                fillOpacity: 0.5,
+                weight: 4
             }
             let name = secondarySchool[2].name;
             let value = secondarySchool[2]["5 And Above20202021"];
@@ -161,7 +161,14 @@
                 if (rank<1) rank = 1;
             }
 
-            new L.CircleMarker(point, settings).addTo(secondaryFeatures[rank]).bindTooltip(f => `${name}<br>Success Rate: ${value}%`);
+            let text = '';
+            for (let key of Object.keys(secondarySchool[2]).sort()) {
+                if (secondarySchool[2][key] != null) {
+                    text += `<b>${key}</b>: ${secondarySchool[2][key]}<br>`;
+                }
+            }
+
+            new L.CircleMarker(point, settings).addTo(secondaryFeatures[rank]).bindTooltip(`${name}<br>Success Rate: ${value}%`, { sticky: true }).bindPopup(text);
         }
 
         for (let primarySchool of map_data.primary_schools) {
@@ -177,7 +184,15 @@
             let successRateMin = (10-primarySchool[2].rank) * 10;
             let successRateMax = (10-primarySchool[2].rank) * 10 + 10;
             if (successRateMin == 10) successRateMin = 0;
-            new L.CircleMarker(point, settings).addTo(primaryFeatures[primarySchool[2].rank]).bindTooltip(f => `${name}<br>Success rate: ${successRateMin} - ${successRateMax}%`);
+
+            let text = '';
+            for (let key of Object.keys(primarySchool[2]).sort()) {
+                if (primarySchool[2][key] != null) {
+                    text += `<b>${key}</b>: ${primarySchool[2][key]}<br>`;
+                }
+            }
+
+            new L.CircleMarker(point, settings).addTo(primaryFeatures[primarySchool[2].rank]).bindTooltip(`${name}<br>Success rate: ${successRateMin} - ${successRateMax}%`, { sticky: true }).bindPopup(text);
         }
 
 
