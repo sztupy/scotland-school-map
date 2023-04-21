@@ -63,6 +63,20 @@
             background-color: lightgray;
         }
 
+        .maplegend {
+            position: absolute;
+            z-index:9999;
+            border:2px solid grey;
+            background-color:rgba(255, 255, 255, 0.8);
+            border-radius:6px;
+            padding: 10px;
+            font-size:14px;
+            left: 10px;
+            bottom: 10px;
+            max-height: 400px;
+            overflow: auto;
+            font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        }
         .maplegend .title {
             text-align: left;
             margin-bottom: 5px;
@@ -113,8 +127,7 @@
 <body>
     <div class="folium-map" id="map"></div>
 
-    <div id='maplegend' class='maplegend' style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8);
-         border-radius:6px; padding: 10px; font-size:14px; left: 10px; bottom: 10px; max-height: 400px; overflow: auto;'>
+    <div id='maplegend' class='maplegend'>
 
         <form autocomplete="off">
         <div class='title'>Data point</div>
@@ -187,7 +200,7 @@
         let secondaryFeatures = [];
         let primaryFeatures = [];
 
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 11; i++) {
             secondaryFeatures.push(new L.featureGroup({}).addTo(map));
             primaryFeatures.push(new L.featureGroup({}).addTo(map))
         }
@@ -295,7 +308,7 @@
             performanceRangeMax = parseInt(form.year_max.value);
             performanceRangeAgg = form.year_method.value;
 
-            for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < 11; i++) {
                 secondaryFeatures[i].clearLayers();
                 primaryFeatures[i].clearLayers();
             }
@@ -312,18 +325,25 @@
                 let value = getPerformance(catchmentArea.properties["awards"]);
                 let color = -1;
                 if (value != null) {
-                    if (value < 30) {
+                    color = value;
+
+                    if (performanceType == 'A+')
+                        color = color * 2;
+                    if (performanceType == 'A++')
+                        color = color * 3;
+
+                    if (color < 30) {
                         color = 0;
-                    } else if (value > 70) {
+                    } else if (color > 70) {
                         color = 120;
                     } else {
-                        color = (value - 30) * 3;
+                        color = (color - 30) * 3;
                     }
                     color = color / 120;
                 }
                 let rank = 0;
                 if (value != null) {
-                    rank = Math.floor(value / 10);
+                    rank = Math.floor(value / 10)+1;
                     if (rank < 1) rank = 1;
                 }
 
@@ -332,7 +352,7 @@
                         color: 'black',
                         fillColor: (color == -1) ? "blue" : colorScale(color),
                         opacity: 1,
-                        weight: 0.5,
+                        weight: 2,
                         fillOpacity: 0.5
                     },
                     onEachFeature: catchmentPopup
@@ -354,7 +374,7 @@
                 let value = getPerformance(secondarySchool[2]["awards"]);
                 let rank = 0;
                 if (value != null) {
-                    rank = Math.floor(value / 10);
+                    rank = Math.floor(value / 10)+1;
                     if (rank < 1) rank = 1;
                 }
 
@@ -408,15 +428,16 @@
                 "Primary Above 30%": primaryFeatures[7],
                 "Primary Above 20%": primaryFeatures[8],
                 "Primary Below 20%": primaryFeatures[9],
-                "Secondary Above 90%": secondaryFeatures[9],
-                "Secondary Above 80%": secondaryFeatures[8],
-                "Secondary Above 70%": secondaryFeatures[7],
-                "Secondary Above 60%": secondaryFeatures[6],
-                "Secondary Above 50%": secondaryFeatures[5],
-                "Secondary Above 40%": secondaryFeatures[4],
-                "Secondary Above 30%": secondaryFeatures[3],
-                "Secondary Above 20%": secondaryFeatures[2],
-                "Secondary Below 20%": secondaryFeatures[1],
+                "Secondary Above 90%": secondaryFeatures[10],
+                "Secondary Above 80%": secondaryFeatures[9],
+                "Secondary Above 70%": secondaryFeatures[8],
+                "Secondary Above 60%": secondaryFeatures[7],
+                "Secondary Above 50%": secondaryFeatures[6],
+                "Secondary Above 40%": secondaryFeatures[5],
+                "Secondary Above 30%": secondaryFeatures[4],
+                "Secondary Above 20%": secondaryFeatures[3],
+                "Secondary Above 10%": secondaryFeatures[2],
+                "Secondary Below 10%": secondaryFeatures[1],
                 "Secondary Unknown": secondaryFeatures[0],
             },
         };

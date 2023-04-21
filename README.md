@@ -1,5 +1,5 @@
-Map of schotland's school performance
-=====================================
+Map of performance of schools in Scotland
+=========================================
 
 This is a project to show some metrics about primary and secondary schools in Scotland
 
