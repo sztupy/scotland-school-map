@@ -27,6 +27,6 @@ By default the map displays colours based on the percentage of pupils achieving 
 * Percentage of pupils with either 5 or more Highers or 1 or more Advanced Highers (whichever is larger)
 * The average between pupils with 5 or more Highers and 1 or more Advanced Highers
 
-The year where the data is taken can also be changed. It can also be aggregated across multiple years.
+The year where the data is taken can also be changed. It can also be aggregated using different methods across multiple years.
 
 There is still the option as well to limit display of schools that are in a particular band, e.g. 50-60%, etc.

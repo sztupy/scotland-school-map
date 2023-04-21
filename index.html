@@ -167,10 +167,11 @@
         <div class='scale'>
             <ul>
                 <li><input type="radio" name="year_method" value="latest" checked>Latest</li>
-                <li><input type="radio" name="year_method" value="max" >Max</li>
-                <li><input type="radio" name="year_method" value="min" >Min</li>
-                <li><input type="radio" name="year_method" value="avg" >Average</li>
-                <li><input type="radio" name="year_method" value="med" >Median</li>
+                <li><input type="radio" name="year_method" value="max">Max</li>
+                <li><input type="radio" name="year_method" value="min">Min</li>
+                <li><input type="radio" name="year_method" value="avg">Average</li>
+                <li><input type="radio" name="year_method" value="med">Median</li>
+                <li><input type="radio" name="year_method" value="diff">Difference</li>
             </ul>
         </div>
         </form>
@@ -232,22 +233,28 @@
                 return getPerfFromYear(award[performanceRangeMax], def);
 
             let data = [];
-            for (let yr = performanceRangeMin; yr <= performanceRangeMax; yr++) {
-                data.push(getPerfFromYear(award[yr], def));
+            if (performanceRangeMin <= performanceRangeMax) {
+                for (let yr = performanceRangeMin; yr <= performanceRangeMax; yr++) {
+                    data.push(getPerfFromYear(award[yr], def));
+                }
+            } else {
+                for (let yr = performanceRangeMin; yr >= performanceRangeMax; yr--) {
+                    data.push(getPerfFromYear(award[yr], def));
+                }
             }
 
             if (data.length == 0)
                 return def;
-
-            data.sort();
 
             switch (performanceRangeAgg) {
                 case 'max': return Math.max(...data);
                 case 'min': return Math.min(...data);
                 case 'avg': return data.reduce((pv,cv) => pv + cv, 0) / data.length;
                 case 'med':
+                    data.sort();
                     let mid = Math.floor(data.length/2);
                     return (data.length%2 == 1) ? data[mid] : (data[mid-1] + data[mid]) / 2;
+                case 'diff': return data[data.length-1] - data[0];
             }
         }
 
@@ -332,18 +339,27 @@
                     if (performanceType == 'A++')
                         color = color * 3;
 
-                    if (color < 30) {
-                        color = 0;
-                    } else if (color > 70) {
-                        color = 120;
+                    if (performanceRangeAgg == 'diff') {
+                        color = color / 50;
+                        color += 0.5;
                     } else {
-                        color = (color - 30) * 3;
+                        if (color < 30) {
+                            color = 0;
+                        } else if (color > 70) {
+                            color = 120;
+                        } else {
+                            color = (color - 30) * 3;
+                        }
+                        color = color / 120;
                     }
-                    color = color / 120;
                 }
                 let rank = 0;
                 if (value != null) {
                     rank = Math.floor(value / 10)+1;
+                    if (performanceRangeAgg == 'diff') {
+                        rank += 5;
+                    }
+                    if (rank > 10) rank = 10;
                     if (rank < 1) rank = 1;
                 }
 
@@ -375,6 +391,10 @@
                 let rank = 0;
                 if (value != null) {
                     rank = Math.floor(value / 10)+1;
+                    if (performanceRangeAgg == 'diff') {
+                        rank += 5;
+                    }
+                    if (rank > 10) rank = 10;
                     if (rank < 1) rank = 1;
                 }
 
