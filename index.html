@@ -8,20 +8,10 @@
     <meta name="viewport" content="width=device-width,
         initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet-src.min.js" integrity="sha512-nRcCZolw4mA+OKrTG/baePuVcG7PHhjFhl6pxkLYl2T+3pKEf+vXw0uR1/X3YtlPLXoWiaLjBnuUzpDuB1yXNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js" integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.css" integrity="sha512-KJRB1wUfcipHY35z9dEE+Jqd+pGCuQ2JMZmQPAjwPjXuzz9oL1pZm2cd79vyUgHQxvb9sFQ6f05DIz0IqcG1Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <meta property="og:title" content="Primary and secondary school ranking map of Scotland">
     <meta property="og:type" content="website" />
@@ -29,7 +19,6 @@
         content="Map of primary and secondary schools of Scotland from https://datamap-scotland.co.uk/ overlaid on a single map.">
     <meta property="og:image" content="https://sztupy.hu/scotland-school-map/preview.png">
     <meta property="og:url" content="https://sztupy.hu/scotland-school-map/">
-
 
     <style>
         html,
@@ -97,6 +86,8 @@
             secondaryFeatures.push(new L.featureGroup({}).addTo(map));
             primaryFeatures.push(new L.featureGroup({}).addTo(map))
         }
+
+        let colorScale = chroma.scale('PiYG');
 
         let performanceType = '5+';
         let performanceRange = 2020;
@@ -187,6 +178,7 @@
                 } else {
                     color = (value-30) * 3;
                 }
+                color = value/100;//color/120;
             }
             let rank = 0;
             if (value != null) {
@@ -197,7 +189,7 @@
             let settings = {
                 style: {
                     color: 'black',
-                    fillColor: `hsl(${color}, 50%, 50%)`,
+                    fillColor: colorScale(color),
                     opacity: 1,
                     weight: 0.5,
                     fillOpacity: 0.5
@@ -213,8 +205,9 @@
                 radius: 6,
                 color: "black",
                 fillColor: secondarySchool[2].type == 'Non-denominational' ? `black` : `white`,
-                fillOpacity: 0.5,
-                weight: 4
+                fillOpacity: 0.01,
+                opacity: 0.25,
+                weight: 2
             }
             let name = secondarySchool[2].name;
             let value = getPerformance(secondarySchool[2]["awards"]);
@@ -240,7 +233,7 @@
             let settings = {
                 radius: 4,
                 color: "black",
-                fillColor: `hsl(${135-primarySchool[2].rank*15}, 100%, 50%)`,
+                fillColor: colorScale( (135-primarySchool[2].rank*15)/120 ),
                 fillOpacity: 1,
                 weight: 0.5
             }
