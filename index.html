@@ -52,6 +52,21 @@
             max-height: 10em;
             overflow: auto;
         }
+
+        .leaflet-popup-content table {
+            border: 1px solid black;
+        }
+
+        .leaflet-popup-content table td {
+            padding-top: 0.1em;
+            padding-bottom: 0.1em;
+            width: 3em;
+            text-align: center;
+        }
+
+        td.important {
+            background-color: lightgray;
+        }
     </style>
 </head>
 
@@ -83,21 +98,69 @@
             primaryFeatures.push(new L.featureGroup({}).addTo(map))
         }
 
+        let performanceType = '5+';
+        let performanceRange = 2020;
+
+        function getPerfFromYear(data) {
+            switch (performanceType) {
+                case '5+': return data[5][4];
+                case '4+': return data[5][3];
+                case 'A+': return data[6][0];
+                case 'AA': return (data[6][0] + data[5][3]) / 2;
+            }
+        }
+
+        function getPerformance(award, def = null) {
+            if (!award) return def;
+            return getPerfFromYear(award[performanceRange]);
+        }
+
+        function generateAwardTable(awards) {
+            text = '';
+            if (!awards) return text;
+
+            text += `Awards<br>`;
+            for (let year in awards) {
+                text += `<b>${year}-${parseInt(year)+1}</b><br>`;
+                text += `<table border="1">`;
+                for (let x in awards[year]) {
+                    text += `<tr>`;
+
+                    for (let y in awards[year][x]) {
+                        if ((x == 5 && y == 3) ||
+                            (x == 5 && y == 4) ||
+                            (x == 6 && y == 0)) {
+                                text += `<td class="important">`;
+                            } else {
+                                text += `<td>`;
+                            }
+
+                        text += `${awards[year][x][y]}</td>`;
+                    }
+
+                    text += `</tr>`;
+                }
+                text += `</table>`;
+            }
+            return text;
+        }
 
         function catchmentPopup(feature, layer) {
             if (feature.properties) {
                 let text = '';
                 for (let key of Object.keys(feature.properties).sort()) {
-                    if (feature.properties[key] != null) {
+                    if (key != 'awards' && feature.properties[key] != null) {
                         text += `<b>${key}</b>: ${feature.properties[key]}<br>`;
                     }
                 }
+
+                text += generateAwardTable(feature.properties['awards']);
                 layer.bindPopup(text);
 
                 let toolTipText = `${feature.properties["Schoolname"]}<br>`;
 
-                if (feature.properties["5 And Above20202021"] != null) {
-                    toolTipText += `Success rate: ${feature.properties["5 And Above20202021"]}%`;
+                if (getPerformance(feature.properties["awards"]) != null) {
+                    toolTipText += `Success Rate: ${getPerformance(feature.properties["awards"])}%`;
                 }
                 layer.bindTooltip(toolTipText, { sticky: true });
             }
@@ -105,7 +168,7 @@
 
         let catchmentFeatures = [];
 
-        map_data.catchment.sort((a,b) => (a.properties["5 And Above20202021"]||0) - (b.properties["5 And Above20202021"]||0))
+        map_data.catchment.sort((a,b) => (getPerformance(a.properties["awards"],0)) - (getPerformance(b.properties["awards"]),0))
 
         for (let catchmentArea of map_data.catchment) {
             let feature = {
@@ -114,7 +177,7 @@
                 geometry: catchmentArea.geometry
             }
 
-            let value = catchmentArea.properties["5 And Above20202021"];
+            let value = getPerformance(catchmentArea.properties["awards"]);
             let color = 240;
             if (value != null) {
                 if (value < 30) {
@@ -154,7 +217,7 @@
                 weight: 4
             }
             let name = secondarySchool[2].name;
-            let value = secondarySchool[2]["5 And Above20202021"];
+            let value = getPerformance(secondarySchool[2]["awards"]);
             let rank = 0;
             if (value != null) {
                 rank = Math.floor(value / 10);
@@ -167,6 +230,7 @@
                     text += `<b>${key}</b>: ${secondarySchool[2][key]}<br>`;
                 }
             }
+            text += generateAwardTable(secondarySchool[2]['awards']);
 
             new L.CircleMarker(point, settings).addTo(secondaryFeatures[rank]).bindTooltip(`${name}<br>Success Rate: ${value}%`, { sticky: true }).bindPopup(text);
         }
@@ -192,7 +256,7 @@
                 }
             }
 
-            new L.CircleMarker(point, settings).addTo(primaryFeatures[primarySchool[2].rank]).bindTooltip(`${name}<br>Success rate: ${successRateMin} - ${successRateMax}%`, { sticky: true }).bindPopup(text);
+            new L.CircleMarker(point, settings).addTo(primaryFeatures[primarySchool[2].rank]).bindTooltip(`${name}<br>Success Rate: ${successRateMin} - ${successRateMax}%`, { sticky: true }).bindPopup(text);
         }
 
 
