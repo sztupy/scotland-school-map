@@ -15,10 +15,13 @@ CSV.foreach("secondary_full.csv", headers: true, converters: [:numeric]) do |row
   date = row['DateCode'][/[0-9]{4}/].to_i
   value = row['Value'].to_i
   if row['DataMarker'] == 'c'
+    # c -> confidential
     value = -1
   elsif row['DataMarker'] == 'z'
+    # z -> N/A
     value = nil
   end
+  # x -> not available; w -> no data recorded
 
   awards = row['Number Of Awards'][/\d+/].to_i - 1
   scqf = row['SCQF Level'][/\d+/].to_i - 1
