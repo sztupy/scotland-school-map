@@ -13,4 +13,4 @@ Usage:
 * Wait for it to finish then save the resulting string into a file called `primary.json` or `secondary.json` (example files provided in this repository)
 * Copy all csv files returned into the `temp` directory. Note: do not mix primary school CSVs with secondary school CSVs!
 * Run `verify_and_generate_csv_files.rb primary.json` or `verify_and_generate_csv_files.rb secondary.json` dependent on which dataset you want to get
-* This will generate 4 CSV files that contains all of the data obtained from the dashboards.
+* This will generate 4 CSV files that contains all of the data obtained from the dashboards. It will also print out if any files have been missed. Re-download them and re-run the scripts to make the results complete.
