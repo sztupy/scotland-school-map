@@ -7,7 +7,8 @@ data = JSON.parse(ARGF.read[11..-1])
 
 parsed_data = {}
 
-CSV.foreach("secondary_full.csv", headers: true, converters: [:numeric]) do |row|
+# years 2015-2020
+CSV.foreach("data/secondary_datacube.csv", headers: true, converters: [:numeric]) do |row|
   next unless row['School Comparator'] == 'Real Establishment'
   next unless row['Courses'] == 'All Courses'
 
@@ -36,6 +37,40 @@ CSV.foreach("secondary_full.csv", headers: true, converters: [:numeric]) do |row
   parsed_data[name][date][scqf][awards] = value
 end
 
+# year 2021. This file is missing data from 2015 and 2016, and also misses 2017 from Kilmarnock Academy as it was known by a different name back then
+CSV.foreach("data/secondary_attainment.csv", headers: true, converters: [:numeric]) do |row|
+  next unless row['comparator'] == 0
+  next unless row['dataset'] == 'breadth_depth'
+  next unless row['measure'] == 'percentage_of_leavers'
+  next if row['minimum_scqf_level'] == 'NA'
+  next if row['minimum_number_of_awards'] == 'NA'
+
+  name = "#{row['seed_code']}|#{row['school_name']}"
+  date = row['year'][/[0-9]{4}/].to_i
+  next unless date == 2021
+  value = row['value'].to_i
+  if row['chart_label'] == 'c'
+    # c -> confidential
+    value = -1
+  elsif row['chart_label'] == 'z'
+    # z -> N/A
+    value = nil
+  end
+  # x -> not available; w -> no data recorded
+
+  awards = row['minimum_number_of_awards'].to_i - 1
+  scqf = row['minimum_scqf_level'].to_i - 1
+
+  parsed_data[name] ||= {}
+  parsed_data[name][date] ||= []
+  parsed_data[name][date][scqf] ||= []
+  if parsed_data[name][date][scqf][awards]
+    STDERR.puts row.to_h
+    STDERR.puts parsed_data[name][date][scqf][awards]
+  end
+  parsed_data[name][date][scqf][awards] = value
+end
+
 # some school names are present multiple times, hacky way to make sure we assign the values correctly
 Duplicates = {
   "St Ninian's High School" => {
@@ -52,20 +87,22 @@ Duplicates = {
   }
 }
 
-# fill in values where datamarker was 'c' with values from the right side of the award table. We always know there are at least that many awards. We convert the number to float though to signal the FE that the value is approximate
-parsed_data.each_pair do |k,v|
-  v.each_pair do |kk,vv|
-    vv.each do |vvv|
-      last_value = 0.0
+# fill in values where datamarker was 'c' with values from the right side of the award table. We always know there are at least that many awards, and usually confidentiality means there might be slightly more than that. The frontend can decide whether to floor the value or use as-is.
+parsed_data.keys.sort.each do |k|
+  v = {}
+  parsed_data[k].keys.sort.each do |kk|
+    parsed_data[k][kk].each do |vvv|
+      last_value = 0
+      next if vvv.nil?
       (vvv.length-1).downto(0) do |idx|
         if vvv[idx] == -1
-          vvv[idx] = last_value
-        end
-        if vvv[idx]
-          last_value = vvv[idx].to_f
+          vvv[idx] = "#{last_value}c"
+        else
+          last_value = vvv[idx]
         end
       end
     end
+    v[kk] = parsed_data[k][kk]
   end
 
   code,name = *k.split('|')
@@ -112,6 +149,4 @@ parsed_data.each_pair do |k,v|
 end
 
 print "map_data = "
-print data.to_json
-
-#print parsed_data.to_json
+print JSON.generate(data,object_nl:"\n")

@@ -57,10 +57,16 @@
             padding-bottom: 0.1em;
             width: 3em;
             text-align: center;
+            font-weight: bold;
         }
 
-        td.important {
+        .leaflet-popup-content table td.important {
             background-color: lightgray;
+        }
+
+        .leaflet-popup-content table td.confidential {
+            font-style: italic;
+            font-weight: normal;
         }
 
         .maplegend {
@@ -144,7 +150,8 @@
         <div class='title'>Year (from)</div>
         <div class='scale'>
             <ul>
-                <li><input type="radio" name="year_min" value="2020" checked>2020-2021</li>
+                <li><input type="radio" name="year_min" value="2021" checked>2021-2022</li>
+                <li><input type="radio" name="year_min" value="2020" >2020-2021</li>
                 <li><input type="radio" name="year_min" value="2019" >2019-2020</li>
                 <li><input type="radio" name="year_min" value="2018" >2018-2019</li>
                 <li><input type="radio" name="year_min" value="2017" >2017-2018</li>
@@ -155,7 +162,8 @@
         <div class='title'>Year (to)</div>
         <div class='scale'>
             <ul>
-                <li><input type="radio" name="year_max" value="2020" checked>2020-2021</li>
+                <li><input type="radio" name="year_max" value="2021" checked>2021-2022</li>
+                <li><input type="radio" name="year_max" value="2020" >2020-2021</li>
                 <li><input type="radio" name="year_max" value="2019" >2019-2020</li>
                 <li><input type="radio" name="year_max" value="2018" >2018-2019</li>
                 <li><input type="radio" name="year_max" value="2017" >2017-2018</li>
@@ -210,20 +218,20 @@
 
         const form = document.forms[0];
         let performanceType = '5+';
-        let performanceRangeMin = 2020;
-        let performanceRangeMax = 2020;
+        let performanceRangeMin = 2021;
+        let performanceRangeMax = 2021;
         let performanceRangeAgg = 'latest';
 
         function getPerfFromYear(data, def) {
             if (!data) return def;
 
             switch (performanceType) {
-                case '5+': return data[5][4];
-                case '4+': return data[5][3];
-                case 'A+': return data[6][0];
-                case 'A++': return data[6][1];
-                case 'AA': return (data[6][0] + data[5][4]) / 2;
-                case 'AM': return Math.max(data[6][0], data[5][4]);
+                case '5+': return data[5][4] === null ? def : parseInt(data[5][4]);
+                case '4+': return data[5][3] === null ? def : parseInt(data[5][3]);
+                case 'A+': return data[6][0] === null ? def : parseInt(data[6][0]);
+                case 'A++': return data[6][1] === null ? def : parseInt(data[6][1]);
+                case 'AA': return (data[6][0] === null || data[5][4] === null) ? def : (parseInt(data[6][0]) + parseInt(data[5][4])) / 2;
+                case 'AM': return (data[6][0] === null || data[5][4] === null) ? def : Math.max(parseInt(data[6][0]), parseInt(data[5][4]));
             }
         }
 
@@ -270,15 +278,18 @@
                     text += `<tr>`;
 
                     for (let y in awards[year][x]) {
+                        let klass = "";
                         if ((x == 5 && y == 3) ||
                             (x == 5 && y == 4) ||
                             (x == 6 && y == 0)) {
-                            text += `<td class="important">`;
-                        } else {
-                            text += `<td>`;
+                            klass = "important"
                         }
 
-                        text += `${awards[year][x][y]}</td>`;
+                        if (typeof awards[year][x][y] === 'string') {
+                            klass += " confidential";
+                        }
+
+                        text += `<td class="${klass}">${awards[year][x][y] == null ? 'N/A' : parseInt(awards[year][x][y])}</td>`;
                     }
 
                     text += `</tr>`;

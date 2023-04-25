@@ -1,0 +1,12 @@
+File sources:
+
+Generated using the method described in the batch_download directory:
+* primary_attainment.csv
+* primary_attendance.csv
+* primary_population.csv
+* secondary_attainment.csv
+* secondary_attendance.csv
+* secondary_population.csv
+
+Downloaded from the government's website https://statistics.gov.scot/data/breadth-and-depth (click "CSV" near "Entire dataset" at the bottom):
+* secondary_datacube.csv

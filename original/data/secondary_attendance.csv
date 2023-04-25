@@ -15,10 +15,18 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Authorised Absence,c,c
 2008/09,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2008/09,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,c,c
+2008/09,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,c,c
+2008/09,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,c,c
 2008/09,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,c,c
 2008/09,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,c,c
 2008/09,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2008/09,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,c,c
+2008/09,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,c,c
+2008/09,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,c,c
 2008/09,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Attendance,0%,
 2008/09,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Authorised Absence,0%,
 2008/09,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -139,6 +147,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Authorised Absence,6.2%,
 2008/09,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,3.5%,
+2008/09,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,90.9%,
+2008/09,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,6.2%,
+2008/09,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,2.9%,
 2008/09,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,91.6%,
 2008/09,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,6%,
 2008/09,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
@@ -331,6 +343,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Authorised Absence,5.2%,
 2008/09,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Unauthorised Absence,1.7%,
+2008/09,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,94.5%,
+2008/09,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,4.1%,
+2008/09,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,1.4%,
 2008/09,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,92.8%,
 2008/09,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,5.5%,
 2008/09,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -559,6 +575,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Authorised Absence,6.4%,
 2008/09,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Unauthorised Absence,1.4%,
+2008/09,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,89.6%,
+2008/09,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,6%,
+2008/09,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,4.3%,
 2008/09,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,88.8%,
 2008/09,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,8.2%,
 2008/09,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -711,6 +731,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Authorised Absence,6%,
 2008/09,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Unauthorised Absence,2.8%,
+2008/09,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,92.3%,
+2008/09,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,5%,
+2008/09,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,2.6%,
 2008/09,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,91.1%,
 2008/09,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,5.2%,
 2008/09,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -763,6 +787,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Authorised Absence,5.3%,
 2008/09,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Unauthorised Absence,3.9%,
+2008/09,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,92.6%,
+2008/09,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,5.2%,
+2008/09,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,1.9%,
 2008/09,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,94.7%,
 2008/09,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,4.8%,
 2008/09,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -883,6 +911,7 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Authorised Absence,5.6%,
 2008/09,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Unauthorised Absence,2.2%,
+2008/09,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Attendance,94.9%,
 2008/09,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Authorised Absence,4%,
 2008/09,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Unauthorised Absence,1%,
@@ -1018,6 +1047,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Authorised Absence,4%,
 2008/09,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Unauthorised Absence,4.7%,
+2008/09,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,90.6%,
+2008/09,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,5.3%,
+2008/09,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,4%,
 2008/09,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,91.7%,
 2008/09,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,4.7%,
 2008/09,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -1050,6 +1083,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Authorised Absence,8.3%,
 2008/09,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Unauthorised Absence,1.7%,
+2008/09,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,91.6%,
+2008/09,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,5.9%,
+2008/09,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,2.5%,
 2008/09,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,88.1%,
 2008/09,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,5.9%,
 2008/09,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -1390,6 +1427,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Authorised Absence,6.7%,
 2008/09,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Unauthorised Absence,0.3%,
+2008/09,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,92.8%,
+2008/09,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,6.9%,
+2008/09,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,0.2%,
 2008/09,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,88.3%,
 2008/09,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,10.7%,
 2008/09,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -1430,6 +1471,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2008/09,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Authorised Absence,3%,
 2008/09,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Temporary Exclusions,z,z
 2008/09,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Unauthorised Absence,1.8%,
+2008/09,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,94%,
+2008/09,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,4.3%,
+2008/09,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,z,z
+2008/09,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,1.7%,
 2008/09,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,94%,
 2008/09,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,5.2%,
 2008/09,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -1526,10 +1571,18 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Authorised Absence,c,c
 2010/11,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2010/11,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,c,c
+2010/11,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,c,c
+2010/11,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,c,c
 2010/11,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,c,c
 2010/11,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,c,c
 2010/11,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2010/11,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,c,c
+2010/11,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,c,c
+2010/11,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,c,c
 2010/11,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Attendance,0%,
 2010/11,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Authorised Absence,0%,
 2010/11,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -1650,6 +1703,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Authorised Absence,6.4%,
 2010/11,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,3.8%,
+2010/11,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,90%,
+2010/11,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,6.7%,
+2010/11,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,3.2%,
 2010/11,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,91.8%,
 2010/11,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.6%,
 2010/11,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
@@ -1842,6 +1899,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Authorised Absence,5.1%,
 2010/11,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Unauthorised Absence,1.9%,
+2010/11,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,94.3%,
+2010/11,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,4.1%,
+2010/11,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,1.6%,
 2010/11,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,92.4%,
 2010/11,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,6.3%,
 2010/11,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2070,6 +2131,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Authorised Absence,6%,
 2010/11,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Unauthorised Absence,1.2%,
+2010/11,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,90%,
+2010/11,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,5.7%,
+2010/11,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,4.3%,
 2010/11,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,87.1%,
 2010/11,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,7.2%,
 2010/11,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2222,6 +2287,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Authorised Absence,7%,
 2010/11,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Unauthorised Absence,2.2%,
+2010/11,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,91.7%,
+2010/11,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,5.2%,
+2010/11,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,3%,
 2010/11,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,91.7%,
 2010/11,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,5.2%,
 2010/11,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2274,6 +2343,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Authorised Absence,6.8%,
 2010/11,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Unauthorised Absence,3%,
+2010/11,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,91.5%,
+2010/11,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,5.5%,
+2010/11,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,2.9%,
 2010/11,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,93.8%,
 2010/11,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,5.2%,
 2010/11,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2530,6 +2603,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Authorised Absence,4.1%,
 2010/11,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Unauthorised Absence,4.3%,
+2010/11,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,90.9%,
+2010/11,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,5.3%,
+2010/11,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,3.7%,
 2010/11,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,89.9%,
 2010/11,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,5.5%,
 2010/11,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2562,6 +2639,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Authorised Absence,6.4%,
 2010/11,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Unauthorised Absence,3.2%,
+2010/11,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,92.6%,
+2010/11,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,5.1%,
+2010/11,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,2.2%,
 2010/11,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,87.6%,
 2010/11,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,5.1%,
 2010/11,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2902,6 +2983,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Authorised Absence,6.3%,
 2010/11,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Unauthorised Absence,0.3%,
+2010/11,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,92.7%,
+2010/11,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,6.9%,
+2010/11,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,0.3%,
 2010/11,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,88.6%,
 2010/11,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,10.6%,
 2010/11,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -2942,6 +3027,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2010/11,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Authorised Absence,3.4%,
 2010/11,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Temporary Exclusions,z,z
 2010/11,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Unauthorised Absence,1.5%,
+2010/11,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,94.7%,
+2010/11,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,3.8%,
+2010/11,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,z,z
+2010/11,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,1.5%,
 2010/11,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,93.4%,
 2010/11,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,5.4%,
 2010/11,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3038,10 +3127,18 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Authorised Absence,c,c
 2012/13,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2012/13,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,c,c
+2012/13,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,c,c
+2012/13,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,c,c
 2012/13,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,c,c
 2012/13,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,c,c
 2012/13,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2012/13,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,c,c
+2012/13,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,c,c
+2012/13,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,c,c
 2012/13,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Attendance,0%,
 2012/13,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Authorised Absence,0%,
 2012/13,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3162,6 +3259,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Authorised Absence,5%,
 2012/13,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,2.6%,
+2012/13,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,91.4%,
+2012/13,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.5%,
+2012/13,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,3.1%,
 2012/13,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,92.3%,
 2012/13,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.4%,
 2012/13,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3354,6 +3455,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Authorised Absence,5.4%,
 2012/13,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Unauthorised Absence,1.7%,
+2012/13,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,94.7%,
+2012/13,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,4.4%,
+2012/13,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,0.9%,
 2012/13,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,93%,
 2012/13,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,5.1%,
 2012/13,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3582,6 +3687,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Authorised Absence,6.1%,
 2012/13,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Unauthorised Absence,1.5%,
+2012/13,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,90.3%,
+2012/13,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,6.4%,
+2012/13,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,3.2%,
 2012/13,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,86.8%,
 2012/13,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,6.9%,
 2012/13,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3734,6 +3843,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Authorised Absence,6.9%,
 2012/13,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Unauthorised Absence,1.4%,
+2012/13,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,91.6%,
+2012/13,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,5.6%,
+2012/13,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,2.6%,
 2012/13,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,92.2%,
 2012/13,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,4.8%,
 2012/13,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3786,6 +3899,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Authorised Absence,6.5%,
 2012/13,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Unauthorised Absence,2%,
+2012/13,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,93%,
+2012/13,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,4.9%,
+2012/13,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,2%,
 2012/13,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,93.1%,
 2012/13,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,5.1%,
 2012/13,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -3906,6 +4023,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Authorised Absence,5.4%,
 2012/13,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Unauthorised Absence,2.4%,
+2012/13,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Attendance,93.9%,
+2012/13,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Authorised Absence,5%,
+2012/13,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Unauthorised Absence,1.1%,
 2012/13,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Attendance,92.7%,
 2012/13,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Authorised Absence,4.3%,
 2012/13,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4038,6 +4159,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Authorised Absence,4.4%,
 2012/13,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Unauthorised Absence,3.1%,
+2012/13,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,91.5%,
+2012/13,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,5.3%,
+2012/13,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,3.1%,
 2012/13,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,89%,
 2012/13,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,6.2%,
 2012/13,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4070,6 +4195,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Authorised Absence,4%,
 2012/13,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Unauthorised Absence,3.8%,
+2012/13,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,93.9%,
+2012/13,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,4.4%,
+2012/13,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,1.7%,
 2012/13,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,89.4%,
 2012/13,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,5.1%,
 2012/13,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4410,6 +4539,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Authorised Absence,5.9%,
 2012/13,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Unauthorised Absence,0.3%,
+2012/13,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,93.4%,
+2012/13,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,6.2%,
+2012/13,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,0.4%,
 2012/13,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,92.8%,
 2012/13,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,6.6%,
 2012/13,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4450,6 +4583,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2012/13,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Authorised Absence,3.5%,
 2012/13,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Temporary Exclusions,z,z
 2012/13,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Unauthorised Absence,1.4%,
+2012/13,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,95.5%,
+2012/13,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,3.2%,
+2012/13,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,z,z
+2012/13,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,1.3%,
 2012/13,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,94.4%,
 2012/13,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,4.6%,
 2012/13,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4546,10 +4683,18 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Authorised Absence,c,c
 2014/15,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2014/15,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,c,c
+2014/15,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,c,c
+2014/15,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,c,c
 2014/15,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,c,c
 2014/15,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,c,c
 2014/15,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2014/15,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,c,c
+2014/15,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,c,c
+2014/15,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,c,c
 2014/15,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Attendance,0%,
 2014/15,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Authorised Absence,0%,
 2014/15,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4670,6 +4815,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.3%,
 2014/15,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,1.9%,
+2014/15,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,89.6%,
+2014/15,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.5%,
+2014/15,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,4.9%,
 2014/15,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,91.7%,
 2014/15,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.4%,
 2014/15,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
@@ -4862,6 +5011,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Authorised Absence,5.3%,
 2014/15,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Unauthorised Absence,1.5%,
+2014/15,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,95%,
+2014/15,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,4.1%,
+2014/15,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,0.9%,
 2014/15,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,94.2%,
 2014/15,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,4.9%,
 2014/15,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5090,6 +5243,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Authorised Absence,5.3%,
 2014/15,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Unauthorised Absence,1.8%,
+2014/15,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,91%,
+2014/15,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,5.6%,
+2014/15,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,3.4%,
 2014/15,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,89.3%,
 2014/15,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,5.7%,
 2014/15,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5242,6 +5399,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Authorised Absence,6.9%,
 2014/15,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Unauthorised Absence,2.4%,
+2014/15,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,90.6%,
+2014/15,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,6%,
+2014/15,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,3.3%,
 2014/15,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,90.9%,
 2014/15,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,5%,
 2014/15,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5294,6 +5455,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Authorised Absence,6.2%,
 2014/15,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Unauthorised Absence,2.8%,
+2014/15,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,93%,
+2014/15,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,5.7%,
+2014/15,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,1.3%,
 2014/15,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,93%,
 2014/15,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,5.6%,
 2014/15,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5414,6 +5579,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Authorised Absence,5.1%,
 2014/15,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Unauthorised Absence,3.1%,
+2014/15,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Attendance,93.6%,
+2014/15,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Authorised Absence,4.7%,
+2014/15,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Unauthorised Absence,1.7%,
 2014/15,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Attendance,93.9%,
 2014/15,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Authorised Absence,4.9%,
 2014/15,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5546,6 +5715,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Authorised Absence,5.2%,
 2014/15,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Unauthorised Absence,4.8%,
+2014/15,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,90.5%,
+2014/15,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,5.3%,
+2014/15,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,4%,
 2014/15,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,87.4%,
 2014/15,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,7.4%,
 2014/15,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5578,6 +5751,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Authorised Absence,3.9%,
 2014/15,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Unauthorised Absence,6.5%,
+2014/15,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,93.8%,
+2014/15,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,5.4%,
+2014/15,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,0.8%,
 2014/15,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,89.4%,
 2014/15,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,5.4%,
 2014/15,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5918,6 +6095,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Authorised Absence,5.9%,
 2014/15,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Unauthorised Absence,0.5%,
+2014/15,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,93.6%,
+2014/15,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,5.9%,
+2014/15,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,0.5%,
 2014/15,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,91.6%,
 2014/15,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,7.7%,
 2014/15,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -5958,6 +6139,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2014/15,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Authorised Absence,3.5%,
 2014/15,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Temporary Exclusions,z,z
 2014/15,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Unauthorised Absence,1.2%,
+2014/15,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,93.6%,
+2014/15,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,3.6%,
+2014/15,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,z,z
+2014/15,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,2.8%,
 2014/15,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,95%,
 2014/15,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,4.3%,
 2014/15,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6054,10 +6239,18 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Authorised Absence,6.5%,
 2016/17,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Unauthorised Absence,6.3%,
+2016/17,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,c,c
+2016/17,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,c,c
+2016/17,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,c,c
 2016/17,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,c,c
 2016/17,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,c,c
 2016/17,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2016/17,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,c,c
+2016/17,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,c,c
+2016/17,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,c,c
 2016/17,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Attendance,0%,
 2016/17,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Authorised Absence,0%,
 2016/17,1005014,190,East Ayrshire,Robert Burns Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6178,6 +6371,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.1%,
 2016/17,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,2.5%,
+2016/17,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,88.3%,
+2016/17,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.6%,
+2016/17,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,6%,
 2016/17,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,90.9%,
 2016/17,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,6%,
 2016/17,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6370,6 +6567,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Authorised Absence,4.6%,
 2016/17,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Unauthorised Absence,1.6%,
+2016/17,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,94.9%,
+2016/17,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,4.1%,
+2016/17,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,1%,
 2016/17,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,94.5%,
 2016/17,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,4.5%,
 2016/17,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6598,6 +6799,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Authorised Absence,5.6%,
 2016/17,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Unauthorised Absence,1.7%,
+2016/17,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,88.4%,
+2016/17,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,5.7%,
+2016/17,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,5.8%,
 2016/17,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,89.1%,
 2016/17,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,6.2%,
 2016/17,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6750,6 +6955,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Authorised Absence,7.3%,
 2016/17,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Unauthorised Absence,3.2%,
+2016/17,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,89.4%,
+2016/17,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,6.6%,
+2016/17,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,3.8%,
 2016/17,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,90.5%,
 2016/17,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,5.1%,
 2016/17,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6802,6 +7011,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Authorised Absence,5.3%,
 2016/17,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Unauthorised Absence,3.8%,
+2016/17,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,93%,
+2016/17,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,5.8%,
+2016/17,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,1.2%,
 2016/17,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,92.8%,
 2016/17,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,5.5%,
 2016/17,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -6922,6 +7135,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Authorised Absence,4.5%,
 2016/17,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Unauthorised Absence,3.1%,
+2016/17,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Attendance,93%,
+2016/17,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Authorised Absence,5%,
+2016/17,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Unauthorised Absence,2%,
 2016/17,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Attendance,92.5%,
 2016/17,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Authorised Absence,5.1%,
 2016/17,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7054,6 +7271,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Authorised Absence,4.9%,
 2016/17,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Unauthorised Absence,6.3%,
+2016/17,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,89.4%,
+2016/17,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,5.6%,
+2016/17,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,4.9%,
 2016/17,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,87.3%,
 2016/17,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,5.4%,
 2016/17,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7086,6 +7307,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Authorised Absence,5.3%,
 2016/17,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Unauthorised Absence,5.8%,
+2016/17,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,93.2%,
+2016/17,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,4.8%,
+2016/17,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,2%,
 2016/17,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,85.5%,
 2016/17,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,6.1%,
 2016/17,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7426,6 +7651,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Authorised Absence,7.1%,
 2016/17,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Unauthorised Absence,0.5%,
+2016/17,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,93%,
+2016/17,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,6.5%,
+2016/17,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,0.5%,
 2016/17,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,89.2%,
 2016/17,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,9.7%,
 2016/17,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7466,6 +7695,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2016/17,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Authorised Absence,3.4%,
 2016/17,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Temporary Exclusions,z,z
 2016/17,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Unauthorised Absence,1.7%,
+2016/17,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,93.9%,
+2016/17,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,3.7%,
+2016/17,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,z,z
+2016/17,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,2.4%,
 2016/17,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,95.1%,
 2016/17,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,4.3%,
 2016/17,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7562,10 +7795,18 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Authorised Absence,6.9%,
 2018/19,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,1003232,250,Fife,Levenmouth Academy,Secondary,All Stages,Unauthorised Absence,6.8%,
+2018/19,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,88.2%,
+2018/19,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,8%,
+2018/19,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,3.8%,
 2018/19,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,88.7%,
 2018/19,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,5.7%,
 2018/19,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Unauthorised Absence,5.6%,
+2018/19,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,88.7%,
+2018/19,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,8.2%,
+2018/19,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,3.1%,
 2018/19,1004743,340,Perth & Kinross,Bertha Park High School,Secondary,All Stages,Attendance,0%,
 2018/19,1004743,340,Perth & Kinross,Bertha Park High School,Secondary,All Stages,Authorised Absence,0%,
 2018/19,1004743,340,Perth & Kinross,Bertha Park High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7690,6 +7931,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.5%,
 2018/19,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,390,390,Stirling,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,2.5%,
+2018/19,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,88.5%,
+2018/19,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,5.5%,
+2018/19,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,5.9%,
 2018/19,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,89.9%,
 2018/19,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,6.2%,
 2018/19,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,z,z
@@ -7882,6 +8127,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Authorised Absence,4.8%,
 2018/19,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,All Stages,Unauthorised Absence,2.4%,
+2018/19,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,95.1%,
+2018/19,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,4.1%,
+2018/19,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,0.8%,
 2018/19,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,93.4%,
 2018/19,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,5%,
 2018/19,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8110,6 +8359,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Authorised Absence,5.2%,
 2018/19,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,5446732,250,Fife,Inverkeithing High School,Secondary,All Stages,Unauthorised Absence,2.2%,
+2018/19,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,89.4%,
+2018/19,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,4.6%,
+2018/19,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,6%,
 2018/19,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,88.2%,
 2018/19,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,5.1%,
 2018/19,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8262,6 +8515,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Authorised Absence,6.1%,
 2018/19,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,5546230,290,Midlothian,St David's RC High School,Secondary,All Stages,Unauthorised Absence,4%,
+2018/19,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,89.8%,
+2018/19,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,5.8%,
+2018/19,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,4.4%,
 2018/19,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,89.2%,
 2018/19,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,6%,
 2018/19,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8314,6 +8571,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Authorised Absence,4.7%,
 2018/19,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,5632536,355,Scottish Borders,Hawick High School,Secondary,All Stages,Unauthorised Absence,6.7%,
+2018/19,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,92.4%,
+2018/19,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,5.5%,
+2018/19,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,2.1%,
 2018/19,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,92.7%,
 2018/19,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,4.5%,
 2018/19,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8434,6 +8695,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Authorised Absence,5.8%,
 2018/19,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,All Stages,Unauthorised Absence,1.9%,
+2018/19,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Attendance,94.1%,
+2018/19,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Authorised Absence,4.6%,
+2018/19,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Unauthorised Absence,1.3%,
 2018/19,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Attendance,92.8%,
 2018/19,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Authorised Absence,4.8%,
 2018/19,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8566,6 +8831,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Authorised Absence,6%,
 2018/19,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,All Stages,Unauthorised Absence,5.2%,
+2018/19,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,88.9%,
+2018/19,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,6.3%,
+2018/19,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,4.9%,
 2018/19,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,88.4%,
 2018/19,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,5.5%,
 2018/19,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8598,6 +8867,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Authorised Absence,5.3%,
 2018/19,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,All Stages,Unauthorised Absence,6.1%,
+2018/19,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,92.1%,
+2018/19,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,4.9%,
+2018/19,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,3.1%,
 2018/19,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,87.1%,
 2018/19,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,4.7%,
 2018/19,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8938,6 +9211,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Authorised Absence,6.2%,
 2018/19,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,All Stages,Unauthorised Absence,0.6%,
+2018/19,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,90.7%,
+2018/19,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,8.6%,
+2018/19,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,0.7%,
 2018/19,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,89.9%,
 2018/19,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,9.1%,
 2018/19,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,z,z
@@ -8978,6 +9255,10 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2018/19,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Authorised Absence,3.5%,
 2018/19,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Temporary Exclusions,z,z
 2018/19,8602034,220,East Renfrewshire,Williamwood High School,Secondary,All Stages,Unauthorised Absence,1.7%,
+2018/19,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,93.3%,
+2018/19,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,4.1%,
+2018/19,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,z,z
+2018/19,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,2.5%,
 2018/19,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,94.7%,
 2018/19,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,3.8%,
 2018/19,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,z,z
@@ -9170,6 +9451,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,1003232,250,Fife,Levenmouth Academy,Secondary,S6,Authorised Absence,5.2%,
 2020/21,1003232,250,Fife,Levenmouth Academy,Secondary,S6,Temporary Exclusions,0%,
 2020/21,1003232,250,Fife,Levenmouth Academy,Secondary,S6,Unauthorised Absence,8.5%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Attendance,87.2%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Authorised Absence,7.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Temporary Exclusions,0.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,All Stages,Unauthorised Absence,5.6%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S1,Attendance,89.4%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S1,Authorised Absence,6.3%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S1,Temporary Exclusions,0.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S1,Unauthorised Absence,4.2%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S2,Attendance,86.2%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S2,Authorised Absence,7.9%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S2,Temporary Exclusions,0.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S2,Unauthorised Absence,5.7%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S3,Attendance,85.3%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S3,Authorised Absence,8%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S3,Temporary Exclusions,0.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S3,Unauthorised Absence,6.6%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S4,Attendance,85.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S4,Authorised Absence,7.8%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S4,Temporary Exclusions,0.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S4,Unauthorised Absence,7%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S5,Attendance,91.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S5,Authorised Absence,4.9%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S5,Temporary Exclusions,0%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S5,Unauthorised Absence,4%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S6,Attendance,90.1%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S6,Authorised Absence,4.6%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S6,Temporary Exclusions,0%,
+2020/21,1004166,100,Aberdeen City,Lochside Academy,Secondary,S6,Unauthorised Absence,5.3%,
 2020/21,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Attendance,86.9%,
 2020/21,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Authorised Absence,7.5%,
 2020/21,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,All Stages,Temporary Exclusions,0%,
@@ -9198,6 +9507,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,S6,Authorised Absence,3.5%,
 2020/21,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,S6,Temporary Exclusions,0%,
 2020/21,1004522,190,East Ayrshire,Kilmarnock Academy,Secondary,S6,Unauthorised Absence,3.2%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Attendance,87.9%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Authorised Absence,8.3%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Temporary Exclusions,0%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,All Stages,Unauthorised Absence,3.8%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S1,Attendance,90%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S1,Authorised Absence,7.3%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S1,Temporary Exclusions,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S1,Unauthorised Absence,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S2,Attendance,88.2%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S2,Authorised Absence,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S2,Temporary Exclusions,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S2,Unauthorised Absence,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S3,Attendance,84.3%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S3,Authorised Absence,10.7%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S3,Temporary Exclusions,0%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S3,Unauthorised Absence,5%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S4,Attendance,87.6%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S4,Authorised Absence,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S4,Temporary Exclusions,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S4,Unauthorised Absence,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S5,Attendance,90.2%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S5,Authorised Absence,6.4%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S5,Temporary Exclusions,0%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S5,Unauthorised Absence,3.4%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S6,Attendance,89.2%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S6,Authorised Absence,c,c
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S6,Temporary Exclusions,0%,
+2020/21,1004620,170,Dumfries & Galloway,North West Community Campus,Secondary,S6,Unauthorised Absence,c,c
 2020/21,1004743,340,Perth & Kinross,Bertha Park High School,Secondary,All Stages,Attendance,90.1%,
 2020/21,1004743,340,Perth & Kinross,Bertha Park High School,Secondary,All Stages,Authorised Absence,4.3%,
 2020/21,1004743,340,Perth & Kinross,Bertha Park High School,Secondary,All Stages,Temporary Exclusions,0.1%,
@@ -10054,6 +10391,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,390,390,Stirling,All publicly funded schools,Secondary,S6,Authorised Absence,3.9%,
 2020/21,390,390,Stirling,All publicly funded schools,Secondary,S6,Temporary Exclusions,0%,
 2020/21,390,390,Stirling,All publicly funded schools,Secondary,S6,Unauthorised Absence,3.5%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Attendance,86.2%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Authorised Absence,7.1%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,0%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,All Stages,Unauthorised Absence,6.7%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S1,Attendance,90.1%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S1,Authorised Absence,5.9%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S1,Temporary Exclusions,0%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S1,Unauthorised Absence,4%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S2,Attendance,86.7%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S2,Authorised Absence,7.8%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S2,Temporary Exclusions,0%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S2,Unauthorised Absence,5.4%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S3,Attendance,85%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S3,Authorised Absence,7.4%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S3,Temporary Exclusions,0.1%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S3,Unauthorised Absence,7.5%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S4,Attendance,83.5%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S4,Authorised Absence,7.4%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S4,Temporary Exclusions,0%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S4,Unauthorised Absence,9.1%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S5,Attendance,85.2%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S5,Authorised Absence,7.5%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S5,Temporary Exclusions,0%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S5,Unauthorised Absence,7.3%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S6,Attendance,85.8%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S6,Authorised Absence,6.2%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S6,Temporary Exclusions,0%,
+2020/21,395,395,West Dunbartonshire,All publicly funded schools,Secondary,S6,Unauthorised Absence,7.9%,
 2020/21,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Attendance,89.2%,
 2020/21,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Authorised Absence,6.4%,
 2020/21,400,400,West Lothian,All publicly funded schools,Secondary,All Stages,Temporary Exclusions,0.1%,
@@ -11398,6 +11763,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,S6,Authorised Absence,6.5%,
 2020/21,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,S6,Temporary Exclusions,0%,
 2020/21,5232333,110,Aberdeenshire,Meldrum Academy,Secondary,S6,Unauthorised Absence,4.6%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Attendance,95.7%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Authorised Absence,3.4%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Temporary Exclusions,c,c
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S1,Attendance,96.4%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S1,Authorised Absence,2.8%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S1,Temporary Exclusions,0%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S1,Unauthorised Absence,0.8%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S2,Attendance,95.4%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S2,Authorised Absence,3.3%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S2,Temporary Exclusions,0%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S2,Unauthorised Absence,1.3%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S3,Attendance,94.7%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S3,Authorised Absence,4.2%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S3,Temporary Exclusions,c,c
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S3,Unauthorised Absence,c,c
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S4,Attendance,95%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S4,Authorised Absence,3.8%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S4,Temporary Exclusions,c,c
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S4,Unauthorised Absence,c,c
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S5,Attendance,95.8%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S5,Authorised Absence,3.3%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S5,Temporary Exclusions,0%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S5,Unauthorised Absence,0.9%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S6,Attendance,97.2%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S6,Authorised Absence,2.5%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S6,Temporary Exclusions,0%,
+2020/21,5232937,110,Aberdeenshire,Westhill Academy,Secondary,S6,Unauthorised Absence,0.3%,
 2020/21,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Attendance,94.5%,
 2020/21,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Authorised Absence,4.3%,
 2020/21,5233038,110,Aberdeenshire,Kemnay Academy,Secondary,All Stages,Temporary Exclusions,0.1%,
@@ -12986,6 +13379,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,5446732,250,Fife,Inverkeithing High School,Secondary,S6,Authorised Absence,6.7%,
 2020/21,5446732,250,Fife,Inverkeithing High School,Secondary,S6,Temporary Exclusions,0%,
 2020/21,5446732,250,Fife,Inverkeithing High School,Secondary,S6,Unauthorised Absence,2.1%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,All Stages,Attendance,86.4%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,All Stages,Authorised Absence,7.5%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,All Stages,Temporary Exclusions,0.2%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,All Stages,Unauthorised Absence,6%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S1,Attendance,88.1%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S1,Authorised Absence,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S1,Temporary Exclusions,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S1,Unauthorised Absence,3.4%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S2,Attendance,87%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S2,Authorised Absence,7.5%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S2,Temporary Exclusions,0.4%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S2,Unauthorised Absence,5.1%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S3,Attendance,86.1%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S3,Authorised Absence,7.4%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S3,Temporary Exclusions,0.3%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S3,Unauthorised Absence,6.2%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S4,Attendance,85.5%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S4,Authorised Absence,6.8%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S4,Temporary Exclusions,0.1%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S4,Unauthorised Absence,7.6%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S5,Attendance,86%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S5,Authorised Absence,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S5,Temporary Exclusions,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S5,Unauthorised Absence,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S6,Attendance,84%,
+2020/21,5447232,250,Fife,Beath High School,Secondary,S6,Authorised Absence,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S6,Temporary Exclusions,c,c
+2020/21,5447232,250,Fife,Beath High School,Secondary,S6,Unauthorised Absence,c,c
 2020/21,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Attendance,83.4%,
 2020/21,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Authorised Absence,6.4%,
 2020/21,5447437,250,Fife,Lochgelly High School,Secondary,All Stages,Temporary Exclusions,0.1%,
@@ -14050,6 +14471,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,5546230,290,Midlothian,St David's RC High School,Secondary,S6,Authorised Absence,3.8%,
 2020/21,5546230,290,Midlothian,St David's RC High School,Secondary,S6,Temporary Exclusions,0%,
 2020/21,5546230,290,Midlothian,St David's RC High School,Secondary,S6,Unauthorised Absence,4.4%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Attendance,88.9%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Authorised Absence,6%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Temporary Exclusions,0%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,All Stages,Unauthorised Absence,5%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S1,Attendance,91.5%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S1,Authorised Absence,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S1,Temporary Exclusions,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S1,Unauthorised Absence,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S2,Attendance,89.4%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S2,Authorised Absence,6.4%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S2,Temporary Exclusions,0%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S2,Unauthorised Absence,4.2%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S3,Attendance,87.6%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S3,Authorised Absence,7.6%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S3,Temporary Exclusions,0.1%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S3,Unauthorised Absence,4.7%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S4,Attendance,85.4%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S4,Authorised Absence,6.5%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S4,Temporary Exclusions,0.1%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S4,Unauthorised Absence,8%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S5,Attendance,88.3%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S5,Authorised Absence,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S5,Temporary Exclusions,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S5,Unauthorised Absence,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S6,Attendance,93.2%,
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S6,Authorised Absence,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S6,Temporary Exclusions,c,c
+2020/21,5546532,290,Midlothian,Lasswade High School Centre,Secondary,S6,Unauthorised Absence,c,c
 2020/21,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Attendance,88.6%,
 2020/21,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Authorised Absence,5.6%,
 2020/21,5546834,290,Midlothian,Penicuik High School,Secondary,All Stages,Temporary Exclusions,c,c
@@ -14414,6 +14863,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,5632536,355,Scottish Borders,Hawick High School,Secondary,S6,Authorised Absence,3.8%,
 2020/21,5632536,355,Scottish Borders,Hawick High School,Secondary,S6,Temporary Exclusions,0%,
 2020/21,5632536,355,Scottish Borders,Hawick High School,Secondary,S6,Unauthorised Absence,2.1%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Attendance,91.2%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Authorised Absence,6.2%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,All Stages,Unauthorised Absence,2.5%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S1,Attendance,94.6%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S1,Authorised Absence,4.5%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S1,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S1,Unauthorised Absence,0.9%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S2,Attendance,92.7%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S2,Authorised Absence,c,c
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S2,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S2,Unauthorised Absence,c,c
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S3,Attendance,92.7%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S3,Authorised Absence,c,c
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S3,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S3,Unauthorised Absence,c,c
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S4,Attendance,88.8%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S4,Authorised Absence,6.8%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S4,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S4,Unauthorised Absence,4.3%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S5,Attendance,90.4%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S5,Authorised Absence,6.4%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S5,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S5,Unauthorised Absence,3.2%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S6,Attendance,84.9%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S6,Authorised Absence,13%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S6,Temporary Exclusions,0%,
+2020/21,5632730,355,Scottish Borders,Jedburgh Grammar School,Secondary,S6,Unauthorised Absence,2.1%,
 2020/21,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Attendance,92.1%,
 2020/21,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Authorised Absence,4.1%,
 2020/21,5632838,355,Scottish Borders,Kelso High School,Secondary,All Stages,Temporary Exclusions,c,c
@@ -15246,6 +15723,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,S6,Authorised Absence,12.1%,
 2020/21,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,S6,Temporary Exclusions,0%,
 2020/21,5939631,170,Dumfries & Galloway,Sanquhar Academy,Secondary,S6,Unauthorised Absence,3.8%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Attendance,92.1%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Authorised Absence,6.8%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Temporary Exclusions,0.2%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,All Stages,Unauthorised Absence,1%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S1,Attendance,93.7%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S1,Authorised Absence,5.2%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S1,Temporary Exclusions,c,c
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S1,Unauthorised Absence,c,c
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S2,Attendance,92.5%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S2,Authorised Absence,6.3%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S2,Temporary Exclusions,c,c
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S2,Unauthorised Absence,c,c
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S3,Attendance,91.6%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S3,Authorised Absence,6.6%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S3,Temporary Exclusions,0.3%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S3,Unauthorised Absence,1.4%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S4,Attendance,90.6%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S4,Authorised Absence,8.4%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S4,Temporary Exclusions,c,c
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S4,Unauthorised Absence,c,c
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S5,Attendance,92.2%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S5,Authorised Absence,6.7%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S5,Temporary Exclusions,0.1%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S5,Unauthorised Absence,0.9%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S6,Attendance,91.8%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S6,Authorised Absence,7.3%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S6,Temporary Exclusions,0%,
+2020/21,5939739,170,Dumfries & Galloway,Wallace Hall Academy,Secondary,S6,Unauthorised Absence,0.9%,
 2020/21,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Attendance,92.9%,
 2020/21,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Authorised Absence,5%,
 2020/21,5941032,170,Dumfries & Galloway,St Joseph's College,Secondary,All Stages,Temporary Exclusions,0%,
@@ -16126,6 +16631,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,S6,Authorised Absence,3.6%,
 2020/21,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,S6,Temporary Exclusions,0%,
 2020/21,8214638,310,North Ayrshire,Ardrossan Academy,Secondary,S6,Unauthorised Absence,8.4%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Attendance,86.9%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Authorised Absence,6.7%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Temporary Exclusions,0%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,All Stages,Unauthorised Absence,6.5%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S1,Attendance,90.4%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S1,Authorised Absence,c,c
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S1,Temporary Exclusions,c,c
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S1,Unauthorised Absence,c,c
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S2,Attendance,87.7%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S2,Authorised Absence,7.6%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S2,Temporary Exclusions,0%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S2,Unauthorised Absence,4.7%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S3,Attendance,85.7%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S3,Authorised Absence,8.6%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S3,Temporary Exclusions,0%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S3,Unauthorised Absence,5.7%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S4,Attendance,84.9%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S4,Authorised Absence,6%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S4,Temporary Exclusions,0.1%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S4,Unauthorised Absence,9.1%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S5,Attendance,86.1%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S5,Authorised Absence,c,c
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S5,Temporary Exclusions,c,c
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S5,Unauthorised Absence,c,c
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S6,Attendance,85.2%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S6,Authorised Absence,5.8%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S6,Temporary Exclusions,0%,
+2020/21,8215030,310,North Ayrshire,Greenwood Academy,Secondary,S6,Unauthorised Absence,9%,
 2020/21,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Attendance,89.6%,
 2020/21,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Authorised Absence,8.2%,
 2020/21,8215138,310,North Ayrshire,Irvine Royal Academy,Secondary,All Stages,Temporary Exclusions,0%,
@@ -16350,6 +16883,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,S6,Authorised Absence,5%,
 2020/21,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,S6,Temporary Exclusions,0%,
 2020/21,8224633,190,East Ayrshire,St Joseph's Academy,Secondary,S6,Unauthorised Absence,5.5%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Attendance,91.2%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Authorised Absence,4.2%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,All Stages,Unauthorised Absence,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S1,Attendance,92.8%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S1,Authorised Absence,4.3%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S1,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S1,Unauthorised Absence,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S2,Attendance,89.9%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S2,Authorised Absence,5%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S2,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S2,Unauthorised Absence,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S3,Attendance,90.4%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S3,Authorised Absence,5.4%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S3,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S3,Unauthorised Absence,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S4,Attendance,89.4%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S4,Authorised Absence,3.9%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S4,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S4,Unauthorised Absence,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S5,Attendance,91.5%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S5,Authorised Absence,3.3%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S5,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S5,Unauthorised Absence,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S6,Attendance,93.8%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S6,Authorised Absence,2.2%,
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S6,Temporary Exclusions,c,c
+2020/21,8224730,190,East Ayrshire,Stewarton Academy,Secondary,S6,Unauthorised Absence,c,c
 2020/21,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Attendance,84.5%,
 2020/21,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Authorised Absence,6.7%,
 2020/21,8235538,370,South Ayrshire,Ayr Academy,Secondary,All Stages,Temporary Exclusions,0%,
@@ -18730,6 +19291,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,S6,Authorised Absence,7.7%,
 2020/21,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,S6,Temporary Exclusions,0%,
 2020/21,8525331,380,South Lanarkshire,Uddingston Grammar School,Secondary,S6,Unauthorised Absence,0.2%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Attendance,88.4%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Authorised Absence,10.7%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Temporary Exclusions,c,c
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,All Stages,Unauthorised Absence,c,c
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S1,Attendance,91.8%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S1,Authorised Absence,7.3%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S1,Temporary Exclusions,c,c
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S1,Unauthorised Absence,c,c
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S2,Attendance,88.7%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S2,Authorised Absence,10%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S2,Temporary Exclusions,c,c
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S2,Unauthorised Absence,c,c
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S3,Attendance,85.7%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S3,Authorised Absence,13.1%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S3,Temporary Exclusions,0%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S3,Unauthorised Absence,1.2%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S4,Attendance,86.6%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S4,Authorised Absence,12.5%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S4,Temporary Exclusions,0%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S4,Unauthorised Absence,0.9%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S5,Attendance,87.1%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S5,Authorised Absence,12.5%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S5,Temporary Exclusions,0%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S5,Unauthorised Absence,0.4%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S6,Attendance,91.9%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S6,Authorised Absence,7.8%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S6,Temporary Exclusions,0%,
+2020/21,8530033,380,South Lanarkshire,Calderglen High School,Secondary,S6,Unauthorised Absence,0.3%,
 2020/21,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Attendance,87.4%,
 2020/21,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Authorised Absence,11.5%,
 2020/21,8530130,380,South Lanarkshire,Calderside Academy,Secondary,All Stages,Temporary Exclusions,0.1%,
@@ -19010,6 +19599,34 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,8602034,220,East Renfrewshire,Williamwood High School,Secondary,S6,Authorised Absence,2.4%,
 2020/21,8602034,220,East Renfrewshire,Williamwood High School,Secondary,S6,Temporary Exclusions,0%,
 2020/21,8602034,220,East Renfrewshire,Williamwood High School,Secondary,S6,Unauthorised Absence,1.6%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Attendance,92.2%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Authorised Absence,4.4%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Temporary Exclusions,0%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,All Stages,Unauthorised Absence,3.4%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S1,Attendance,95.7%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S1,Authorised Absence,3.1%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S1,Temporary Exclusions,0%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S1,Unauthorised Absence,1.3%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S2,Attendance,94.3%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S2,Authorised Absence,3.8%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S2,Temporary Exclusions,c,c
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S2,Unauthorised Absence,c,c
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S3,Attendance,92.2%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S3,Authorised Absence,5.3%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S3,Temporary Exclusions,0%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S3,Unauthorised Absence,2.5%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S4,Attendance,89.9%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S4,Authorised Absence,5.5%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S4,Temporary Exclusions,c,c
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S4,Unauthorised Absence,c,c
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S5,Attendance,90.2%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S5,Authorised Absence,4.9%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S5,Temporary Exclusions,c,c
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S5,Unauthorised Absence,c,c
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S6,Attendance,90.3%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S6,Authorised Absence,3.7%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S6,Temporary Exclusions,0%,
+2020/21,8602239,220,East Renfrewshire,Mearns Castle High School,Secondary,S6,Unauthorised Absence,6%,
 2020/21,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Attendance,91.9%,
 2020/21,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Authorised Absence,4.7%,
 2020/21,8602433,220,East Renfrewshire,St Ninian's High School,Secondary,All Stages,Temporary Exclusions,c,c
@@ -19570,4 +20187,3 @@ year,seed_code,la_code,la_name,school_name,school_type,stage,measure,value,chart
 2020/21,8645639,280,Inverclyde,St Stephen's High School,Secondary,S6,Authorised Absence,4.3%,
 2020/21,8645639,280,Inverclyde,St Stephen's High School,Secondary,S6,Temporary Exclusions,0%,
 2020/21,8645639,280,Inverclyde,St Stephen's High School,Secondary,S6,Unauthorised Absence,6.8%,
-oway,Wallace Hall Academy,Secondary,All Stages,Attendance,94.9%,

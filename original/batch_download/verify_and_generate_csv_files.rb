@@ -51,5 +51,17 @@ headers.each_pair do |k,v|
 end
 
 headers.each_pair do |k,v|
-  system("cat #{v[:id]}.csv | (sed -u 1q; sort) | uniq > #{v[:id]}_sorted.csv")
+  lines = CSV.read("#{v[:id]}.csv")
+  header = lines.shift
+  lines.sort!
+  CSV.open("#{v[:id]}_sorted.csv","w+") do |csv|
+    csv << header
+    old_row = nil
+    lines.each do |l|
+      if l != old_row
+        csv << l
+      end
+      old_row = l
+    end
+  end
 end
