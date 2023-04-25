@@ -10,3 +10,13 @@ Generated using the method described in the batch_download directory:
 
 Downloaded from the government's website https://statistics.gov.scot/data/breadth-and-depth (click "CSV" near "Entire dataset" at the bottom):
 * secondary_datacube.csv
+
+Downloaded from the SIMD.scot website (click "Download all data & geographies):
+* simd2020_withinds.csv
+* simd2020.geojson (converted from SHP)
+
+Note: the above geojson is huge when converted as-is, so the following simplifications have been done using Qgis:
+
+* First use GRASS `v.generalize` with the `distance_weighting` smoothing algorithm
+* Then on the results use GRASS `v.generalize` with the `lang` simplification algorithm with `treshold` set to `5`
+* Finally convert the result to GeoJSON using setting `COORDINATE_PRECISION` set to `5`
