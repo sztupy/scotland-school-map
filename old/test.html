@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Primary and Secondary School ranking map of Scotland</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet-src.min.js"
+        integrity="sha512-nRcCZolw4mA+OKrTG/baePuVcG7PHhjFhl6pxkLYl2T+3pKEf+vXw0uR1/X3YtlPLXoWiaLjBnuUzpDuB1yXNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"
+        integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.css"
+        integrity="sha512-KJRB1wUfcipHY35z9dEE+Jqd+pGCuQ2JMZmQPAjwPjXuzz9oL1pZm2cd79vyUgHQxvb9sFQ6f05DIz0IqcG1Jw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta property="og:title" content="Primary and secondary school ranking map of Scotland">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Map of primary and secondary schools of Scotland from https://datamap-scotland.co.uk/ overlaid on a single map.">
+    <meta property="og:image" content="https://sztupy.hu/scotland-school-map/preview.png">
+    <meta property="og:url" content="https://sztupy.hu/scotland-school-map/">
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+        }
+
+        .leaflet-popup-content {
+            max-height: 10em;
+            overflow: auto;
+        }
+
+        .leaflet-popup-content table {
+            border: 1px solid black;
+        }
+
+        .leaflet-popup-content table td {
+            padding-top: 0.1em;
+            padding-bottom: 0.1em;
+            width: 3em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .leaflet-popup-content table td.important {
+            background-color: lightgray;
+        }
+
+        .leaflet-popup-content table td.confidential {
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        .maplegend {
+            position: absolute;
+            z-index:9999;
+            border:2px solid grey;
+            background-color:rgba(255, 255, 255, 0.8);
+            border-radius:6px;
+            padding: 10px;
+            font-size:14px;
+            left: 10px;
+            bottom: 10px;
+            max-height: 400px;
+            overflow: auto;
+            font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        }
+        .maplegend .title {
+            text-align: left;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 90%;
+            clear: both;
+        }
+
+        .maplegend .scale ul {
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 0;
+            float: left;
+            list-style: none;
+        }
+
+        .maplegend .scale ul li {
+            font-size: 80%;
+            list-style: none;
+            margin-left: 0;
+            line-height: 18px;
+            margin-bottom: 2px;
+        }
+
+        .maplegend ul.labels li span {
+            display: block;
+            float: left;
+            height: 16px;
+            width: 30px;
+            margin-right: 5px;
+            margin-left: 0;
+            border: 1px solid #999;
+        }
+
+        .maplegend .source {
+            font-size: 80%;
+            color: #777;
+            clear: both;
+        }
+
+        .maplegend a {
+            color: #777;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="folium-map" id="map"></div>
+
+    <script>
+        let map = L.map(
+            "map",
+            {
+                center: [57.0, -4.7],
+                crs: L.CRS.EPSG3857,
+                zoom: "6.5",
+                zoomControl: true,
+                preferCanvas: false,
+            }
+        );
+
+        let tileLayer = L.tileLayer(
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            { "attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false }
+        ).addTo(map);
+    </script>
+    <script src="output.js"></script>
+    <script>
+        var myLayer = L.geoJSON().addTo(map);
+        myLayer.addData(geojsonFeature);
+    </script>
+</body>
+
+</html>

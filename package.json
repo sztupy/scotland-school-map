@@ -1,0 +1,20 @@
+{
+    "name": "scootland-school-map",
+    "dependencies": {
+        "chroma-js": "^2.4.2",
+        "ol": "7.3.0",
+        "papaparse": "^5.4.1",
+        "topojson": "^3.0.2",
+        "topojson-server": "^3.0.1"
+    },
+    "devDependencies": {
+        "postcss": "^8.4.23",
+        "postcss-nesting": "^11.2.2",
+        "vite": "^3.2.3"
+    },
+    "scripts": {
+        "start": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    }
+}

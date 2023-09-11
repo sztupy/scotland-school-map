@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Primary and Secondary School ranking map of Scotland</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet-src.min.js"
+        integrity="sha512-nRcCZolw4mA+OKrTG/baePuVcG7PHhjFhl6pxkLYl2T+3pKEf+vXw0uR1/X3YtlPLXoWiaLjBnuUzpDuB1yXNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"
+        integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.min.css"
+        integrity="sha512-KJRB1wUfcipHY35z9dEE+Jqd+pGCuQ2JMZmQPAjwPjXuzz9oL1pZm2cd79vyUgHQxvb9sFQ6f05DIz0IqcG1Jw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta property="og:title" content="Primary and secondary school ranking map of Scotland">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Map of primary and secondary schools of Scotland from https://datamap-scotland.co.uk/ overlaid on a single map.">
+    <meta property="og:image" content="https://sztupy.hu/scotland-school-map/preview.png">
+    <meta property="og:url" content="https://sztupy.hu/scotland-school-map/">
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+        }
+
+        .leaflet-popup-content {
+            max-height: 10em;
+            overflow: auto;
+        }
+
+        .leaflet-popup-content table {
+            border: 1px solid black;
+        }
+
+        .leaflet-popup-content table td {
+            padding-top: 0.1em;
+            padding-bottom: 0.1em;
+            width: 3em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .leaflet-popup-content table td.important {
+            background-color: lightgray;
+        }
+
+        .leaflet-popup-content table td.confidential {
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        .maplegend {
+            position: absolute;
+            z-index:9999;
+            border:2px solid grey;
+            background-color:rgba(255, 255, 255, 0.8);
+            border-radius:6px;
+            padding: 10px;
+            font-size:14px;
+            left: 10px;
+            bottom: 10px;
+            max-height: 400px;
+            overflow: auto;
+            font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        }
+        .maplegend .title {
+            text-align: left;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 90%;
+            clear: both;
+        }
+
+        .maplegend .scale ul {
+            margin: 0;
+            margin-bottom: 5px;
+            padding: 0;
+            float: left;
+            list-style: none;
+        }
+
+        .maplegend .scale ul li {
+            font-size: 80%;
+            list-style: none;
+            margin-left: 0;
+            line-height: 18px;
+            margin-bottom: 2px;
+        }
+
+        .maplegend ul.labels li span {
+            display: block;
+            float: left;
+            height: 16px;
+            width: 30px;
+            margin-right: 5px;
+            margin-left: 0;
+            border: 1px solid #999;
+        }
+
+        .maplegend .source {
+            font-size: 80%;
+            color: #777;
+            clear: both;
+        }
+
+        .maplegend a {
+            color: #777;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="folium-map" id="map"></div>
+
+    <div id='maplegend' class='maplegend'>
+
+        <form autocomplete="off">
+        <div class='title'>Data point</div>
+        <div class='scale'>
+            <ul>
+                <li><input type="radio" name="type" value="4+">4+ Highers</li>
+                <li><input type="radio" name="type" value="5+" checked>5+ Highers</li>
+                <li><input type="radio" name="type" value="A+">1+ Advanced Highers</li>
+                <li><input type="radio" name="type" value="A++">2+ Advanced Highers</li>
+                <li><input type="radio" name="type" value="AA">1+ AH / 5+ H Average</li>
+                <li><input type="radio" name="type" value="AM">1+ AH / 5+ H Max</li>
+            </ul>
+        </div>
+        <div class='title'>Year (from)</div>
+        <div class='scale'>
+            <ul>
+                <li><input type="radio" name="year_min" value="2021" checked>2021-2022</li>
+                <li><input type="radio" name="year_min" value="2020" >2020-2021</li>
+                <li><input type="radio" name="year_min" value="2019" >2019-2020</li>
+                <li><input type="radio" name="year_min" value="2018" >2018-2019</li>
+                <li><input type="radio" name="year_min" value="2017" >2017-2018</li>
+                <li><input type="radio" name="year_min" value="2016" >2016-2017</li>
+                <li><input type="radio" name="year_min" value="2015" >2015-2016</li>
+            </ul>
+        </div>
+        <div class='title'>Year (to)</div>
+        <div class='scale'>
+            <ul>
+                <li><input type="radio" name="year_max" value="2021" checked>2021-2022</li>
+                <li><input type="radio" name="year_max" value="2020" >2020-2021</li>
+                <li><input type="radio" name="year_max" value="2019" >2019-2020</li>
+                <li><input type="radio" name="year_max" value="2018" >2018-2019</li>
+                <li><input type="radio" name="year_max" value="2017" >2017-2018</li>
+                <li><input type="radio" name="year_max" value="2016" >2016-2017</li>
+                <li><input type="radio" name="year_max" value="2015" >2015-2016</li>
+            </ul>
+        </div>
+        <div class='title'>Year (aggregation)</div>
+        <div class='scale'>
+            <ul>
+                <li><input type="radio" name="year_method" value="latest" checked>Latest</li>
+                <li><input type="radio" name="year_method" value="max">Max</li>
+                <li><input type="radio" name="year_method" value="min">Min</li>
+                <li><input type="radio" name="year_method" value="avg">Average</li>
+                <li><input type="radio" name="year_method" value="med">Median</li>
+                <li><input type="radio" name="year_method" value="diff">Difference</li>
+            </ul>
+        </div>
+        </form>
+        <div class="source"><a
+                href="https://github.com/sztupy/scotland-school-map">Source & More info</a>
+        </div>
+    </div>
+
+
+    <script>
+        let map = L.map(
+            "map",
+            {
+                center: [57.0, -4.7],
+                crs: L.CRS.EPSG3857,
+                zoom: "6.5",
+                zoomControl: true,
+                preferCanvas: false,
+            }
+        );
+
+        let tileLayer = L.tileLayer(
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            { "attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false }
+        ).addTo(map);
+
+        let secondaryFeatures = [];
+        let primaryFeatures = [];
+
+        for (let i = 0; i < 11; i++) {
+            secondaryFeatures.push(new L.featureGroup({}).addTo(map));
+            primaryFeatures.push(new L.featureGroup({}).addTo(map))
+        }
+
+        let colorScale = chroma.scale('PiYG');
+
+        const form = document.forms[0];
+        let performanceType = '5+';
+        let performanceRangeMin = 2021;
+        let performanceRangeMax = 2021;
+        let performanceRangeAgg = 'latest';
+
+        function getPerfFromYear(data, def) {
+            if (!data) return def;
+
+            switch (performanceType) {
+                case '5+': return data[5][4] === null ? def : parseInt(data[5][4]);
+                case '4+': return data[5][3] === null ? def : parseInt(data[5][3]);
+                case 'A+': return data[6][0] === null ? def : parseInt(data[6][0]);
+                case 'A++': return data[6][1] === null ? def : parseInt(data[6][1]);
+                case 'AA': return (data[6][0] === null || data[5][4] === null) ? def : (parseInt(data[6][0]) + parseInt(data[5][4])) / 2;
+                case 'AM': return (data[6][0] === null || data[5][4] === null) ? def : Math.max(parseInt(data[6][0]), parseInt(data[5][4]));
+            }
+        }
+
+        function getPerformance(award, def = null) {
+            if (!award) return def;
+            if (performanceRangeAgg == 'latest')
+                return getPerfFromYear(award[performanceRangeMax], def);
+
+            let data = [];
+            if (performanceRangeMin <= performanceRangeMax) {
+                for (let yr = performanceRangeMin; yr <= performanceRangeMax; yr++) {
+                    data.push(getPerfFromYear(award[yr], def));
+                }
+            } else {
+                for (let yr = performanceRangeMin; yr >= performanceRangeMax; yr--) {
+                    data.push(getPerfFromYear(award[yr], def));
+                }
+            }
+
+            if (data.length == 0)
+                return def;
+
+            switch (performanceRangeAgg) {
+                case 'max': return Math.max(...data);
+                case 'min': return Math.min(...data);
+                case 'avg': return data.reduce((pv,cv) => pv + cv, 0) / data.length;
+                case 'med':
+                    data.sort();
+                    let mid = Math.floor(data.length/2);
+                    return (data.length%2 == 1) ? data[mid] : (data[mid-1] + data[mid]) / 2;
+                case 'diff': return data[data.length-1] - data[0];
+            }
+        }
+
+        function generateAwardTable(awards) {
+            text = '';
+            if (!awards) return text;
+
+            text += `Awards<br>`;
+            for (let year in awards) {
+                text += `<b>${year}-${parseInt(year) + 1}</b><br>`;
+                text += `<table border="1">`;
+                for (let x in awards[year]) {
+                    text += `<tr>`;
+
+                    for (let y in awards[year][x]) {
+                        let klass = "";
+                        if ((x == 5 && y == 3) ||
+                            (x == 5 && y == 4) ||
+                            (x == 6 && y == 0)) {
+                            klass = "important"
+                        }
+
+                        if (typeof awards[year][x][y] === 'string') {
+                            klass += " confidential";
+                        }
+
+                        text += `<td class="${klass}">${awards[year][x][y] == null ? 'N/A' : parseInt(awards[year][x][y])}</td>`;
+                    }
+
+                    text += `</tr>`;
+                }
+                text += `</table>`;
+            }
+            return text;
+        }
+
+        function catchmentPopup(feature, layer) {
+            if (feature.properties) {
+                let text = '';
+                for (let key of Object.keys(feature.properties).sort()) {
+                    if (key != 'awards' && feature.properties[key] != null) {
+                        text += `<b>${key}</b>: ${feature.properties[key]}<br>`;
+                    }
+                }
+
+                text += generateAwardTable(feature.properties['awards']);
+                layer.bindPopup(text);
+
+                let toolTipText = `${feature.properties["Schoolname"]}<br>`;
+
+                if (getPerformance(feature.properties["awards"]) != null) {
+                    toolTipText += `Success Rate: ${getPerformance(feature.properties["awards"])}%`;
+                }
+                layer.bindTooltip(toolTipText, { sticky: true });
+            }
+        }
+
+        function reCalculate() {
+            performanceType = form.type.value;
+            performanceRangeMin = parseInt(form.year_min.value);
+            performanceRangeMax = parseInt(form.year_max.value);
+            performanceRangeAgg = form.year_method.value;
+
+            for (let i = 0; i < 11; i++) {
+                secondaryFeatures[i].clearLayers();
+                primaryFeatures[i].clearLayers();
+            }
+
+            map_data.catchment.sort((a, b) => (getPerformance(a.properties["awards"], 0)) - (getPerformance(b.properties["awards"]), 0))
+
+            for (let catchmentArea of map_data.catchment) {
+                let feature = {
+                    type: "Feature",
+                    properties: catchmentArea.properties,
+                    geometry: catchmentArea.geometry
+                }
+
+                let value = getPerformance(catchmentArea.properties["awards"]);
+                let color = -1;
+                if (value != null) {
+                    color = value;
+
+                    if (performanceType == 'A+')
+                        color = color * 2;
+                    if (performanceType == 'A++')
+                        color = color * 3;
+
+                    if (performanceRangeAgg == 'diff') {
+                        color = color / 50;
+                        color += 0.5;
+                    } else {
+                        if (color < 30) {
+                            color = 0;
+                        } else if (color > 70) {
+                            color = 120;
+                        } else {
+                            color = (color - 30) * 3;
+                        }
+                        color = color / 120;
+                    }
+                }
+                let rank = 0;
+                if (value != null) {
+                    rank = Math.floor(value / 10)+1;
+                    if (performanceRangeAgg == 'diff') {
+                        rank += 5;
+                    }
+                    if (rank > 10) rank = 10;
+                    if (rank < 1) rank = 1;
+                }
+
+                let settings = {
+                    style: {
+                        color: 'black',
+                        fillColor: (color == -1) ? "blue" : colorScale(color),
+                        opacity: 1,
+                        weight: 2,
+                        fillOpacity: 0.5
+                    },
+                    onEachFeature: catchmentPopup
+                }
+                new L.GeoJSON(feature, settings).addTo(secondaryFeatures[rank]);
+            }
+
+            for (let secondarySchool of map_data.secondary_schools) {
+                let point = [secondarySchool[1], secondarySchool[0]];
+                let settings = {
+                    radius: 6,
+                    color: "black",
+                    fillColor: secondarySchool[2].type == 'Non-denominational' ? `black` : `white`,
+                    fillOpacity: 0.01,
+                    opacity: 0.25,
+                    weight: 2
+                }
+                let name = secondarySchool[2].name;
+                let value = getPerformance(secondarySchool[2]["awards"]);
+                let rank = 0;
+                if (value != null) {
+                    rank = Math.floor(value / 10)+1;
+                    if (performanceRangeAgg == 'diff') {
+                        rank += 5;
+                    }
+                    if (rank > 10) rank = 10;
+                    if (rank < 1) rank = 1;
+                }
+
+                let text = '';
+                for (let key of Object.keys(secondarySchool[2]).sort()) {
+                    if (secondarySchool[2][key] != null) {
+                        text += `<b>${key}</b>: ${secondarySchool[2][key]}<br>`;
+                    }
+                }
+                text += generateAwardTable(secondarySchool[2]['awards']);
+
+                new L.CircleMarker(point, settings).addTo(secondaryFeatures[rank]).bindTooltip(`${name}<br>Success Rate: ${value}%`, { sticky: true }).bindPopup(text);
+            }
+
+            for (let primarySchool of map_data.primary_schools) {
+                let point = [primarySchool[1], primarySchool[0]];
+                let settings = {
+                    radius: 4,
+                    color: "black",
+                    fillColor: colorScale((135 - primarySchool[2].rank * 15) / 120),
+                    fillOpacity: 1,
+                    weight: 0.5
+                }
+                let name = primarySchool[2].name;
+                let successRateMin = (10 - primarySchool[2].rank) * 10;
+                let successRateMax = (10 - primarySchool[2].rank) * 10 + 10;
+                if (successRateMin == 10) successRateMin = 0;
+
+                let text = '';
+                for (let key of Object.keys(primarySchool[2]).sort()) {
+                    if (primarySchool[2][key] != null) {
+                        text += `<b>${key}</b>: ${primarySchool[2][key]}<br>`;
+                    }
+                }
+
+                new L.CircleMarker(point, settings).addTo(primaryFeatures[primarySchool[2].rank]).bindTooltip(`${name}<br>Success Rate: ${successRateMin} - ${successRateMax}%`, { sticky: true }).bindPopup(text);
+            }
+        }
+
+        let layerControl = {
+            base_layers: {
+                "openstreetmap": tileLayer,
+            },
+            overlays: {
+                "Primary Above 90%": primaryFeatures[1],
+                "Primary Above 80%": primaryFeatures[2],
+                "Primary Above 70%": primaryFeatures[3],
+                "Primary Above 60%": primaryFeatures[4],
+                "Primary Above 50%": primaryFeatures[5],
+                "Primary Above 40%": primaryFeatures[6],
+                "Primary Above 30%": primaryFeatures[7],
+                "Primary Above 20%": primaryFeatures[8],
+                "Primary Below 20%": primaryFeatures[9],
+                "Secondary Above 90%": secondaryFeatures[10],
+                "Secondary Above 80%": secondaryFeatures[9],
+                "Secondary Above 70%": secondaryFeatures[8],
+                "Secondary Above 60%": secondaryFeatures[7],
+                "Secondary Above 50%": secondaryFeatures[6],
+                "Secondary Above 40%": secondaryFeatures[5],
+                "Secondary Above 30%": secondaryFeatures[4],
+                "Secondary Above 20%": secondaryFeatures[3],
+                "Secondary Above 10%": secondaryFeatures[2],
+                "Secondary Below 10%": secondaryFeatures[1],
+                "Secondary Unknown": secondaryFeatures[0],
+            },
+        };
+        L.control.layers(
+            layerControl.base_layers,
+            layerControl.overlays,
+            { "hideSingleBase": true, "autoZIndex": true, "collapsed": true, "position": "topright" }
+        ).addTo(map);
+
+    </script>
+    <script src="output.js"></script>
+    <script>
+        reCalculate();
+        form.addEventListener('change', function() {
+            reCalculate();
+        });
+    </script>
+</body>
+
+</html>

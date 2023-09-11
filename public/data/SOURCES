@@ -1,0 +1,23 @@
+File sources:
+
+Generated using the method described in the batch_download directory:
+* primary_attainment.csv
+* primary_attendance.csv
+* primary_population.csv
+* secondary_attainment.csv
+* secondary_attendance.csv
+* secondary_population.csv
+
+Downloaded from the government's website https://statistics.gov.scot/data/breadth-and-depth (click "CSV" near "Entire dataset" at the bottom):
+* secondary_datacube.csv
+
+Downloaded from the SIMD.scot website (click "Download all data & geographies):
+* simd2020_withinds.csv
+* simd2020.geojson (converted from SHP)
+
+Note: the above geojson is huge when converted as-is, so the following simplifications have been done using the TopoJSON tools (https://github.com/topojson/topojson):
+
+```
+geo2topo simd.geojson > simd.topojson
+toposimplify -P 0.05 simd.topojson >! simd-simplified.topojson
+```
