@@ -8,7 +8,8 @@ Generated using the method described in the batch_download directory:
 * secondary_attendance.csv
 * secondary_population.csv
 
-Downloaded from the government's website https://statistics.gov.scot/data/breadth-and-depth (click "CSV" near "Entire dataset" at the bottom):
+Downloaded from the government's website https://statistics.gov.scot/data/breadth-and-depth:
+There used to be a CSV button, but they removed it. You can still click it if you know the link, which is `https://statistics.gov.scot/downloads/cube-table?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fbreadth-and-depth`
 * secondary_datacube.csv
 
 Downloaded from the SIMD.scot website (click "Download all data & geographies):
